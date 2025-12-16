@@ -1,0 +1,136 @@
+/* ====== CONFIGURAÇÕES GERAIS ====== */
+body {
+    background: #c7a4d1; /* Roxo suave igual ao print */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ====== CABEÇALHO ====== */
+header {
+    text-align: center;
+    margin-top: 40px;
+    color: #4b2c5f;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.20);
+}
+
+header h2 {
+    margin-top: -10px;
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.9;
+    color: #4b2c5f;
+}
+
+/* ====== CONTAINER PRINCIPAL ====== */
+.container {
+    background: #f6ecfbdd; /* Fundo branco com leve roxo */
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    width: 380px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+    animation: subir 0.7s ease-out;
+}
+
+@keyframes subir {
+    from { transform: translateY(40px); opacity: 0; }
+    to   { transform: translateY(0); opacity: 1; }
+}
+
+/* ====== TÍTULOS ====== */
+.container h2 {
+    text-align: center;
+    color: #8b58a1; /* Roxo forte igual aos textos da imagem */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ====== INPUTS E FORMULÁRIO ====== */
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    color: #6b3c83;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 15px 0;
+    border: 2px solid #c7add8;
+    border-radius: 12px;
+    background: #ccbada;
+    transition: 0.3s;
+    font-size: 15px;
+    color: #4b2c5f;
+}
+
+input:focus {
+    border-color: #b58bd6;
+    outline: none;
+    background: #cfb5b5;
+    box-shadow: 0 0 8px rgba(181, 139, 214, 0.4);
+}
+
+/* ====== BOTÕES ====== */
+.btn {
+    width: 100%;
+    background: #82619b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #8b58a1; /* Roxo mais forte igual ao print */
+    box-shadow: 0 4px 10px rgba(139, 88, 161, 0.3);
+}
+
+/* LINKS DE TROCA ENTRE LOGIN E CADASTRO */
+.switch {
+    text-align: center;
+    margin-top: 10px;
+    color: #6b3c83;
+    font-size: 15px;
+}
+
+.switch a {
+    color: #8b58a1;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
+
+/* ====== ERRO ====== */
+.erro {
+    text-align: center;
+    color: #b80000;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+/* ====== ITEM ESCONDIDO ====== */
+.hidden {
+    display: none;
+}

@@ -1,0 +1,132 @@
+/*ESTILOS GERAIS DA PÁGINA */
+body {
+  background-color: #e9d9f2; /* Cor de fundo lilás clara, suave para os olhos */
+  font-family: Arial, sans-serif; /* Fonte padrão, simples e legível */
+  padding: 40px; /* Espaçamento interno geral */
+  position: static; /* Posição padrão (segue o fluxo natural da página) */
+}
+
+/* TÍTULO PRINCIPAL*/
+h1 {
+  color: #4a2054; /* Roxo escuro para contraste com o fundo */
+  text-align: center; /* Centraliza o título na página */
+  position: relative; /* Permite pequenos ajustes */
+  top: 5px; /* Move levemente o título para baixo */
+  z-index: 2; /* Fica acima de elementos com menor profundidade */
+}
+
+/*CONTAINER PRINCIPAL */
+.container {
+  background-color: white; /* Fundo branco para destacar o conteúdo */
+  padding: 25px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  max-width: 600px; /* Largura máxima para não esticar demais */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave ao redor */
+  position: relative; /* Permite ajustes finos */
+  z-index: 1; /* Levemente abaixo do título */
+  top: 10px; /* Desloca um pouco para baixo */
+}
+
+/*FORMULÁRIO DE FEEDBACK*/
+form {
+  display: flex; /* Usa o modelo flexbox */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  gap: 10px; /* Espaçamento entre os campos */
+  position: relative;
+  left: 5px; /* Leve deslocamento à direita */
+}
+
+/*RÓTULOS DOS CAMPOS (LABELS) */
+label {
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #4a2054; /* Mantém a paleta de roxo */
+  position: relative;
+  top: 2px; /* Pequeno ajuste de alinhamento */
+}
+
+/* CAMPOS DE SELEÇÃO E TEXTO*/
+select, textarea {
+  padding: 10px; /* Espaçamento interno para conforto na digitação */
+  border-radius: 5px; /* Bordas arredondadas */
+  border: 1px solid #ccc; /* Borda cinza clara */
+  font-family: inherit; /* Mantém a mesma fonte do body */
+  position: relative;
+  z-index: 1; /* Segue o fluxo normal */
+}
+
+/*BOTÃO DE ENVIO */
+button {
+  background-color: #b789c9; /* Roxo médio agradável */
+  color: white; /* Texto branco para contraste */
+  border: none; /* Remove a borda padrão */
+  padding: 10px 15px; /* Tamanho confortável */
+  border-radius: 20px; /* Bordas arredondadas em formato de pílula */
+  cursor: pointer; /* Cursor de mãozinha ao passar */
+  transition: background-color 0.3s ease; /* Suaviza a mudança de cor no hover */
+  position: relative;
+  top: 5px; /* Leve deslocamento */
+  z-index: 3; /* Camada mais acima do formulário */
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+  background-color: #9d66b4; /* Tom mais escuro de roxo */
+}
+
+/* SEÇÃO DE FEEDBACKS EXIBIDOS*/
+#feedbacks {
+  margin-top: 30px; /* Espaço acima da lista de feedbacks */
+  position: relative;
+  z-index: 1;
+  top: 5px; /* Pequeno ajuste vertical */
+}
+
+/* Subtítulo da seção de feedbacks */
+#feedbacks h2 {
+  color: #4a2054; /* Cor roxa escura */
+  position: relative;
+  left: 5px; /* Leve deslocamento horizontal */
+}
+
+/* Lista que contém os feedbacks */
+#listaFeedbacks {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o espaçamento interno padrão */
+  position: relative;
+}
+
+/* Cada item de feedback individual */
+#listaFeedbacks li {
+  background-color: #f3e7fa; /* Fundo lilás clarinho */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin-bottom: 10px; /* Espaço entre os feedbacks */
+  position: relative;
+  left: 5px; /* Leve deslocamento à direita */
+  z-index: 1;
+}
+
+/*LINK (BOTÃO) DE VOLTAR */
+a {
+  display: block; /* Ocupa toda a largura disponível */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #b789c9; /* Mesmo tom do botão */
+  color: white; /* Texto branco */
+  border-radius: 20px; /* Bordas arredondadas */
+  text-decoration: none; /* Remove o sublinhado */
+  transition: background-color 0.3s ease; /* Transição suave */
+  
+  /* Posição fixa no canto inferior direito */
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10; /* Sempre por cima dos demais elementos */
+}
+
+/* Efeito de hover no link */
+a:hover {
+  background-color: #9d66b4; /* Cor escurecida no hover */
+}
