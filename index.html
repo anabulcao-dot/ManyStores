@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Many Stores - Cadastro/Login</title>
+  <link rel="icon" href="manyStores/manys.png">
+  <!-- Importando CSS externo -->
+  <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ====================== CABEÇALHO ====================== -->
+  <header>
+    <h1>MANY STORES</h1>
+    <h2>Bem-vindo(a)!</h2>
+  </header>
+  <div class="container">
+    
+    <!-- ================== ÁREA DE CADASTRO ================== -->
+    <div id="cadastro">
+      <h2>Cadastro</h2>
+      <form id="formCadastro">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+
+        <label for="confirmar">Confirmar Senha</label>
+        <input type="password" id="confirmar" name="confirmar" placeholder="Confirme a senha" required>
+
+        <!-- Mensagem de erro posicionada via CSS -->
+        <p id="erroCadastro" class="erro"></p>
+
+        <button type="submit" class="btn">Cadastrar</button>
+      </form>
+      <div class="switch">
+        Já tem conta? <a href="#" id="irLogin">Entrar</a>
+      </div>
+    </div>
+
+    <!-- ================== ÁREA DE LOGIN ================== -->
+    <div id="login" class="hidden">
+      <h2>Entrar</h2>
+      <form id="formLogin">
+        <label for="loginNome">Nome</label>
+        <input type="text" id="loginNome" placeholder="Digite seu nome" required>
+
+        <label for="loginEmail">E-mail</label>
+        <input type="email" id="loginEmail" placeholder="Digite seu e-mail" required>
+
+        <label for="loginSenha">Senha</label>
+        <input type="password" id="loginSenha" placeholder="Digite sua senha" required>
+
+        <!-- Mensagem de erro posicionada via CSS -->
+        <p id="erroLogin" class="erro"></p>
+
+        <button type="submit" class="btn">Entrar</button>
+      </form>
+      <div class="switch">
+        Ainda não tem conta? <a href="#" id="irCadastro">Cadastrar</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Script JS para alternar entre cadastro e login -->
+  <script src="js/script.js"></script>
+
+
+
+</body>
+</html>
