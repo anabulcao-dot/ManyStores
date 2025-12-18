@@ -1,31 +1,63 @@
-# Many Stores – Avaliação 3º Bimestre
+# Many Stores – Avaliação 4º Bimestre
 
-**Integrantes:**  
-- Ana Sabrina de Souza Bulcão  
-- Flávia Alexandra Mendes da Silva  
-- Maria Helisa Santos de Azevedo
+**Integrantes:**
 
-## Resumo das mudanças realizadas
-Durante a reformulação do projeto foram realizadas as seguintes alterações e melhorias (sem alterar a interface ou funcionalidades originais):
-- Excluímos algumas páginas antigas que estavam duplicadas ou sem uso.  
-- Ampliamos a **Central de Ajuda**, adicionando seções explicativas e melhor organização para o usuário.  
-- Ampliamos a seção de **Perfil**, com comentários no código e pequenas melhorias de usabilidade.  
-- Adicionamos uma nova página **Lista de Desejos** (wishlist) que permite ao usuário criar e marcar itens desejados, selecionar loja e indicar item como comprado.  
-- Inserimos comentários explicativos detalhados em todos os arquivos HTML, CSS e JavaScript.  
-- Adicionamos nos arquivos o uso de `position` (static, relative, absolute, fixed), propriedades `top/left/right/bottom` e `z-index`, conforme exigido.    
-- Mantivemos a organização das pastas (`css/`, `js/`, `images/` etc.) e melhoramos a identação do código.
+* Ana Sabrina de Souza Bulcão
+* Flávia Alexandra Mendes da Silva
+* Maria Helisa Santos de Azevedo
+
+---
+
+## Adequação aos requisitos da avaliação
+
+O projeto **Many Stores** foi revisado e ajustado para **atender integralmente aos requisitos exigidos pelo professor**, sem alterar a interface original nem as funcionalidades principais do sistema.
+
+As mudanças realizadas tiveram como foco principal a **organização do código**, a **documentação por meio de comentários** e a **aplicação correta das propriedades de posicionamento em CSS**, conforme solicitado.
+
+---
+
+## Alterações realizadas conforme os requisitos
+
+* Remoção de páginas duplicadas ou sem utilização, mantendo apenas os arquivos necessários ao funcionamento do projeto.
+* Reorganização e ampliação da **Central de Ajuda**, com melhor estruturação do conteúdo para facilitar a compreensão do usuário.
+* Ajustes na página de **Perfil**, incluindo comentários explicativos no código e pequenas melhorias de usabilidade.
+* Criação da página **Lista de Desejos (Wishlist)**, permitindo:
+
+  * Adicionar itens desejados;
+  * Selecionar a loja correspondente;
+  * Marcar itens como comprados.
+* Inclusão de **comentários explicativos** em todos os arquivos **HTML, CSS e JavaScript**, descrevendo a finalidade de cada seção do código.
+* Aplicação obrigatória das propriedades de **CSS position**, incluindo:
+
+  * `static`
+  * `relative`
+  * `absolute`
+  * `fixed`
+* Utilização das propriedades `top`, `right`, `bottom` e `left` para controle de posicionamento dos elementos.
+* Uso de **`z-index`** para demonstrar o empilhamento correto de camadas em elementos sobrepostos.
+* Manutenção da estrutura de pastas do projeto (`css/`, `js/`, `images/`), com melhorias na identação e legibilidade do código.
+* Criação da página **Avaliação**, inspirada no formulário utilizado em atividades interdisciplinares, contendo todos os campos exigidos nos critérios definidos pelo professor.
+
 
 ## Explicação técnica dos requisitos obrigatórios
-- **Uso de position:** usamos `position: static`, `relative`, `absolute` e `fixed`. Há também exemplos de `top`, `right`, `bottom` e `left`.  
-- **z-index:** incluímos exemplos de `z-index` para demonstrar empilhamento de camadas (`.layer-back` e `.layer-front`).  
-- **Comentários:** todos os arquivos principais receberam comentários explicativos no início e, quando apropriado, dentro do código para descrever a função das seções.  
-- **Organização:** o projeto foi mantido com boa estrutura de pastas e arquivos, e o código foi identado para facilitar leitura .
+
+* **Position:** o projeto apresenta exemplos práticos de `static`, `relative`, `absolute` e `fixed`, aplicados em diferentes elementos das páginas.
+* **Top / Right / Bottom / Left:** essas propriedades foram utilizadas para ajustar o posicionamento dos elementos posicionados.
+* **Z-index:** aplicado para demonstrar a sobreposição e a hierarquia visual entre camadas.
+* **Comentários no código:** todos os arquivos possuem comentários no início e ao longo do código, explicando sua função e estrutura.
+* **Organização:** o código está devidamente identado e separado em pastas, facilitando a leitura, manutenção e avaliação do projeto.
+
 
 ## Instruções básicas de uso
-1. **Abrir localmente:** descompacte o arquivo e abra o arquivo `index.html` no navegador.
-2. **Navegação:** utilize o index para acessar páginas (menu, perfil, central de ajuda, lista de desejos etc.).  
-3. **Lista de Desejos:** acesse a página de wishlist; adicione itens na lista usando o formulário; marque itens como comprados e selecione a loja ao salvar. 
 
-## Observações finais
-- Não foram alteradas as funcionalidades principais do projeto — apenas adicionamos comentários, pequenas melhorias visuais e arquivos utilitários para atender aos requisitos da avaliação.   
-Projeto preparado para entrega da **Avaliação 01 - 3º Bimestre**.
+1. Descompactar o arquivo do projeto.
+2. Abrir o arquivo `index.html` em um navegador.
+3. Utilizar o menu principal para navegar entre as páginas (perfil, central de ajuda, lista de desejos e avaliação).
+4. Na **Lista de Desejos**, adicionar itens, selecionar a loja e marcar como comprado quando necessário.
+
+## Considerações finais
+
+* As funcionalidades principais do projeto foram **mantidas**, conforme orientação da avaliação.
+* As alterações realizadas tiveram como objetivo **exclusivamente atender aos requisitos técnicos solicitados**.
+
+Projeto pronto para entrega da **Avaliação 02 – 4º Bimestre**.
